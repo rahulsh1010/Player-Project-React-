@@ -1,0 +1,12 @@
+
+
+spring:
+      profiles:
+          active: dev
+          
+      application:
+         name: r1
+          
+server:
+    servlet:
+        context-path: /r1

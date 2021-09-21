@@ -1,0 +1,21 @@
+## YAML Template.
+---
+
+server:
+       port: 8084
+       
+spring:
+  jpa: 
+      
+        generate-ddl: true
+        hibernate.ddl-auto: update
+        show-sql: true
+        database-platform : org.hibernate.dialect.MySQL8Dialect
+
+                      
+  datasource: 
+       initialize: true
+       driver-class-name: com.mysql.cj.jdbc.Driver
+       url: jdbc:mysql://localhost:3306/newApp
+       username: root
+       password: Rahulapple10
